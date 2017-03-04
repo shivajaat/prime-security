@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href=<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+<style>
+body {
+  font-family: Sansita, sans-serif;
+  margin: 0 auto;
+  max-width:750px;
+  background: #567;
+}
+div {
+  height: 275px;
+  background-size: cover;
+  position: relative;
+  margin: 70px 55px 50px 10px;
+  border-radius: 50px;
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #rgba;
+  margin: 0px  ;
+}
+h2 {
+  text-align:center;
+  color: #abcdaa;
+  margin: 2px 0 7px 0;
+}
+li {
+      display: inline;
+      padding: 0px 100px 0px 10px;
+      background: #ababab;
+    }
+p {
+  color: rgba(255,255,255,255);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 25px;
+  transition: height .7s;
+  -webkit-transition: height .7s;
+  -moz-transition: height .7s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 125px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("http://najoorha.persiangig.com/OfflineUpdate/image/NortonLogo.JPG");
+}
+.second{
+  background-image: url("http://wellconnectedmom.com/blog/p-content/themes/atahualpa342/images/articles/2013/09/AVG-Brand-Logo-1024x427.jpg");
+}
+.third{
+  background-image:url("http://www.bardroy.com/wp-content/themes/bardroy/images/partners/quickheal-logo.jpg");
+  }
+
+.price {
+  float: right;
+}
+@media(max-width:400px) {
+    body {
+margin: 0 auto;
+  max-width:750px;
+  background: #567;
+
+    }
+    div {
+  height: 300px;
+  width:750px;
+  margin: 70px 55px 50px 10px;
+  border-radius: 50px;
+}
+    h1{
+      color:rgba(250,250,250,150);
+      }
+      li{
+        display:inline;
+        background: #ababab;
+        padding:0
+        }
+        p {
+  color: rgba(255,255,255,150);
+padding: 10px;
+  line-height:20px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0px;
+  margin: 0px;
+  height: 20px;
+  transition: height .5s;
+        }
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+<h1><b>PRIME</b> Security</h1>
+<h2>Buy Top Antivirus Online</h2>
+<ul>
+      <li><a href="http://norton.symantec.com/norton/ps/ad/pages/in/3up_nav_nis_360_in_en_trips_notw_legacy_pla.html?om_sem_cid=hho_sem_sy:in:pla:sy:l|kw0000434740|116657624681|c&country=IN"><=Norton=></a></li>
+      <li><a href="http://www.amazon.in/AVG-Internet-Security-2016-Year/dp/B01E8F5P2A?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=252697e5-618b-443e-9417-ac1a7bd4a761"><=AVG=></a></li>
+      <li><a href="http://www.amazon.in/Quick-Heal-Antivirus-PC-Years/dp/B00F0HW1ZA?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=252697e5-618b-443e-9417-ac1a7bd4a761"><=Quick Heal=></a></li>
+    </ul>
+<div class="first">
+  <p>NORTON Antivirus Pro<span class="price">Rs:589</span><br />
+  <small>
+{General Information:
+Number of Users-1,
+Number of Years-1,
+Version-Latest Version,
+Model- AntiVirus Pro,
+1 year}
+,{System Requirements:
+Operating System,
+Hard Disk Space	2.15 GB,
+RAM Size	512 MB!}<br>
+From Norton AntiVirus Basic to Norton Security – We have you Covered! Protect your devices against viruses, spyware, malware and online threats with a complete AntiVirus and Security suite. ...</small></p>
+</div>
+
+<div class="second">
+  <p>AVG Antivirus<span class="price">Rs:600</span><br />
+  <small>Blocks viruses, spyware and other malware
+Anti-spam stops spammers and scammers
+Enhanced firewall blocks hackers for safer shopping
+Data Safe encrypts and password-protects private files
+Anti-spyware blocks spyware and adware from tracking you and more; File Shredder securely deletes files to prevent snooping
+For Technical Assistance please contact +91 9673766999 (Monday to Friday 10.00 am to 6.00 pm), E-mail- support@avgindia.in</small></p>
+</div>
+<div class="third">
+  <p> Antivirus<span class="price">Rs:1,035</span><br />
+  <small>Protection against unknown malware threats
+Blocks websites infected with viruses and malware
+Filters emails with infected links or attachments
+Fast virus scans without system slowdown
+For Technical Assistance, please contact - 18001217377, Email - info@quickheal.co.in
+This item is non-returnable
+The requirements are applicable to the 32-bit and 64-bit operating systems unless specifically mentioned</small></p>
+</div>
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
